@@ -615,7 +615,7 @@ namespace Auto_Junk_Adder
 
         public void Delete()
         {
-            string Pattern = "(// Junk Code By Troll Face & Thaisen's Gen)(.*?)(// Junk Finished)";
+            string Pattern = "(// Junk Code By Peatreat & Thaisen's Gen)(.*?)(// Junk Finished)";
             Regex x = new Regex(Pattern, RegexOptions.Singleline);
             string file = listBox1.Items[count].ToString();
             string Text = File.ReadAllText(file);
